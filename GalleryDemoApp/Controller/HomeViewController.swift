@@ -140,7 +140,7 @@ extension HomeViewController : UITextFieldDelegate{
                 }
             }
         } else {
-            searchArray = array
+            self.searchArray = array
         }
     }
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
